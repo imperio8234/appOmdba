@@ -1,10 +1,8 @@
 "use client";
 import { MovieList } from "@/components/MovieList";
 import { SearchBar } from "@/components/SearchBar";
-import CardPelicula from "@/components/cardPelicula";
 import paginasExistentes from "@/util/paginasExistentes";
-import { SearchOutlined } from "@mui/icons-material";
-import { CircularProgress, IconButton, Pagination, Stack } from "@mui/material";
+import { Pagination, Stack } from "@mui/material";
 import { useEffect, useState } from "react";
 
 export default function Home() {

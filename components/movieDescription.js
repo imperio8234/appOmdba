@@ -1,6 +1,4 @@
-// components/MovieDetails.js
 
-import { Rating, Stack } from "@mui/material";
 
 
 const MovieDetails = ({ movie }) => {
@@ -18,51 +16,51 @@ const MovieDetails = ({ movie }) => {
           <div className="w-2/3 p-6">
             <h1 className="text-2xl font-bold mb-4">{movie.Title}</h1>
             <p className="mb-4">
-              <strong>Plot:</strong> {movie.Plot}
+              <strong>Trama:</strong> {movie.Plot}
             </p>
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <p>
-                  <strong>Actors:</strong> {movie.Actors}
+                  <strong>Actores:</strong> {movie.Actors}
                 </p>
                 <p>
                   <strong>Director:</strong> {movie.Director}
                 </p>
                 <p>
-                  <strong>Writer:</strong> {movie.Writer}
+                  <strong>Escritor:</strong> {movie.Writer}
                 </p>
                 <p>
-                  <strong>Genre:</strong> {movie.Genre}
+                  <strong>Genero:</strong> {movie.Genre}
                 </p>
                 <p>
-                  <strong>Country:</strong> {movie.Country}
+                  <strong>Pais:</strong> {movie.Country}
                 </p>
                 <p>
-                  <strong>Language:</strong> {movie.Language}
+                  <strong>Idioma:</strong> {movie.Language}
                 </p>
               </div>
               <div>
                 <p>
-                  <strong>Awards:</strong> {movie.Awards}
+                  <strong>Premios:</strong> {movie.Awards}
                 </p>
                 <p>
-                  <strong>BoxOffice:</strong> {movie.BoxOffice}
+                  <strong>Taquillas:</strong> {movie.BoxOffice}
                 </p>
                 <p>
-                  <strong>Released:</strong> {movie.Released}
+                  <strong>Estreno:</strong> {movie.Released}
                 </p>
                 <p>
-                  <strong>Runtime:</strong> {movie.Runtime}
+                  <strong>Duracion:</strong> {movie.Runtime}
                 </p>
                 <p>
-                  <strong>Year:</strong> {movie.Year}
+                  <strong>Año:</strong> {movie.Year}
                 </p>
                 <p>
                   <strong>imdbRating:</strong> 
                   {movie.imdbRating}
                 </p>
                 <p>
-                  <strong>imdbVotes:</strong> {movie.imdbVotes}
+                  <strong>Numero de votos:</strong> {movie.imdbVotes}
                 </p>
               </div>
             </div>
